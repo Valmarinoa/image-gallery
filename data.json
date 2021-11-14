@@ -1,0 +1,40 @@
+{
+  "main": [
+    {
+      "_id": "45",
+      "img": "/media/issue_45"
+    },
+    {
+      "_id": "52",
+      "img": "/media/issue_52"
+    },
+    {
+      "_id": "53",
+      "img": "/media/issue_53"
+    },
+    {
+      "_id": "55",
+      "img": "/media/issue_55"
+    },
+    {
+      "_id": "56",
+      "img": "/media/issue_56"
+    },
+    {
+      "_id": "58",
+      "img": "/media/issue_58"
+    },
+    {
+      "_id": "60",
+      "img": "/media/issue_60"
+    },
+    {
+      "_id": "61",
+      "img": "/media/issue_61"
+    },
+    {
+      "_id": "62",
+      "img": "/media/issue_62"
+    }
+  ]
+}
