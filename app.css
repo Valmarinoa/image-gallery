@@ -51,12 +51,14 @@ h4 {
   display: -webkit-inline-box;
   overflow: auto;
   padding-top: 15px;
+  padding-bottom: 40px;
   margin-left: 5%;
   margin-right: 5%;
 }
 #under-elements {
   display: flex;
   justify-content: space-evenly;
+  align-items: center;
 }
 .container {
   display: flex;
@@ -67,11 +69,12 @@ h4 {
   align-items: center;
 }
 
-.selectedCoverImage {
+#selectedCoverImage {
   height: 400px;
   width: auto;
   padding: 0px;
   margin: 30px;
+  margin-bottom: 10px;
   border-radius: 5px;
   cursor: pointer;
   transition: transform 350ms ease-in-out;
@@ -80,20 +83,20 @@ h4 {
     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 
-.selectedCoverImage:hover {
+#selectedCoverImage:hover {
   transform-style: preserve-3d;
   transform: scale(1.04) translateX(10%) rotateY(-15deg);
   cursor: pointer;
 }
 
-#captions {
+.captions {
   display: flex;
   font-family: var(--main-font-family);
   font-size: 1.6rem;
   font-weight: 300;
   margin-top: 0px;
   z-index: 1;
-  color: aliceblue;
+  color: black;
   position: relative;
 }
 
@@ -109,6 +112,7 @@ h4 {
   justify-content: center;
   align-items: center;
   transition: 300ms;
+  z-index: 3;
 }
 #content-modal {
   margin-top: 6%;
@@ -140,9 +144,10 @@ a {
   padding: 11px;
   border-radius: none;
   border: black solid 1px;
-  background-color: transparent;
+  background-color: rgb(196, 209, 236);
   color: black;
   transition: 200ms;
+  z-index: 2;
 }
 
 .btn:hover {
